@@ -2,7 +2,7 @@
 
 set -e
 
-PROJECT_BASE_PATH='/usr/local/apps/rest-api'
+PROJECT_BASE_PATH='/usr/local/apps/rest-api-2'
 
 git pull
 $PROJECT_BASE_PATH/env/bin/python manage.py migrate
